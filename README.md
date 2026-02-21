@@ -13,6 +13,7 @@ It implements a defense-in-depth model by combining:
 *Web Application Firewall (AWS WAF)
 
 
+
 The system includes both:
 🔓 A vulnerable implementation (for demonstration)
 🔒 A secure implementation (for mitigation)
@@ -24,6 +25,7 @@ User
 → AWS WAF (Firewall layer – optional)
 → EC2 (Java Backend)
 → RDS MySQL (Private Database inside VPC)
+<img width="1024" height="1536" alt="Architecture_Diagram" src="https://github.com/user-attachments/assets/72b1e43c-fd6d-48bc-ba84-2c2cfe6b775e" />
 
 -->Core Security Layers
 Edge Layer – CloudFront + WAF (traffic inspection)
